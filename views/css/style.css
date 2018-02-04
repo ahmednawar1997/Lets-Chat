@@ -1,0 +1,52 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+#form{
+    width:100%;
+}
+#chattingArea{
+    border-radius: 20px;
+    width: 100%;
+    background-color: #98b2e6;
+    padding: 10px;
+    margin-bottom: 2%;
+    max-height: 60vh;
+    overflow-y: scroll;
+}
+.addedMessage{
+    border-radius: 10px;
+    width: 100%;
+    background-color: #6f94dc;
+    padding: 10px;
+    margin-bottom: 0.7%;
+}
+.time{
+    font-size: 10px;
+    text-align: center;
+    float: right;
+    border-radius: 70px;
+    width: 30%;
+    background-color: #adc2eb;
+    padding: 1px;
+    margin-bottom: 0.1%;
+}
+.myAddedMessage{
+    border-radius: 10px;
+    width: 100%;
+    background-color: #5b84d7;
+    padding: 10px;
+    margin-bottom: 0.7%;
+}
+::-ms-input-placeholder {
+    color: #adc2eb;
+}
+#hiddenForm{
+    padding: 7px;
+}
+
+#float_right {
+    background-color: #adb5d2;
+    border-radius: 20px;
+    max-height: 60vh;
+    overflow-y: scroll;
+}
